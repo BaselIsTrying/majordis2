@@ -36,14 +36,14 @@ client.on('ready', async () => {
     .setApplicationId('1265825059692609587')
     .setType('PLAYING')
     .setURL('https://www.twitch.tv/apparentlyjack_rl') 
-    .setState('NOW GET THE FUCK OUT')
-    .setName('CALM SHARK')
-    .setDetails(`Welcome to Mr.Sharks Profile`)
+    .setState('Enjoy Here')
+    .setName('MAJORS')
+    .setDetails(`Welcome to Our Oficiall Clan Profile`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/918918699203837982/1321501402643562618/itsoma98_14031001_172038562.jpg?ex=6770c356&is=676f71d6&hm=de3a303f953373ac46648b569a8c65cb4e38a7184a83ac4c9a6712288f797a7b&=&format=webp&width=692&height=521') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('I AM BASEL :)') 
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1193602666518036541/1321507550021156874/Picsart_24-12-25_18-59-03-230.jpg?ex=6770c910&is=676f7790&hm=49e0afbe61950231a563a9c7ef35e67dd0a32ec6eecb3d16355d8f95d1e5dada&=&format=webp&width=701&height=701') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('UNMESSABLE') 
+ .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Majors Clan') 
+    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('Management') 
     .addButton('Google', 'https://google.com');
 
   client.user.setActivity(r);
